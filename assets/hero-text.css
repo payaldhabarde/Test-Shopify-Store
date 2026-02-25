@@ -1,0 +1,144 @@
+.hero-image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-image-text .container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image-text__border-line {
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 4px;
+}
+
+.hero-image-text__content {
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.hero-image-text__media {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 50px 30px;
+  margin-top: 30px;
+}
+
+.hero-image-text__image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-image-text__image-heading {
+  font-size: 23px;
+  margin-top: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.hero-image-text__image {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero-image-text__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.hero-image-text__icon-para {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image-text__icon-para p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+  margin-top: 5px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+}
+
+.hero-image-text__heading {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hero-image-text__paragraph p,
+.hero-image-text__paragraph-bottom,
+.hero-image-text__caption-top {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+  font-weight: normal;
+}
+
+.hero-image-text__paragraph-bottom {
+  margin-top: 60px;
+}
+
+.hero-image-text__caption-top {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.trust-badge__image {
+  max-width: 70px;
+}
+
+.trust-badge__image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 789px) {
+  .hero-image-text__media {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .hero-image-text__heading {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .trust-badge__image {
+    max-width: 50px;
+  }
+
+  .hero-image-text__image-heading,
+  .hero-image-text__icon-para p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 499px) {
+  .hero-image-text__heading {
+    font-size: 24px;
+  }
+}
+

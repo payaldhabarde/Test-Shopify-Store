@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "new_skills_ggA8fB": {
+      "type": "new-skills",
+      "blocks": {
+        "image_block_rqWcgY": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/html5-1841458_1280.png",
+            "block_heading": "",
+            "block_subheading": "",
+            "block_link": ""
+          }
+        },
+        "image_block_ehJnai": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/css3-1841590_1280.png",
+            "block_heading": "",
+            "block_subheading": "",
+            "block_link": ""
+          }
+        },
+        "image_block_6jkNAz": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/javascript-736400_1280.png",
+            "block_heading": "",
+            "block_subheading": "",
+            "block_link": ""
+          }
+        },
+        "image_block_iDqtL9": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/React_Logo_SVG_svg.png",
+            "block_heading": "",
+            "block_subheading": "",
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_block_rqWcgY",
+        "image_block_ehJnai",
+        "image_block_6jkNAz",
+        "image_block_iDqtL9"
+      ],
+      "name": "t:sections.new-skils.presets.name",
+      "settings": {
+        "section_heading": "Skills"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "new_skills_ggA8fB"
+  ]
+}

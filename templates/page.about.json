@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_image_with_text_Y4RAja": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "heading_NhFCin": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frontend Developer – Shopify Specialist",
+            "heading_size": "h1"
+          }
+        },
+        "text_9gnFPM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I design and develop comprehensive digital solutions for clients, with a specialization in creating stylish, modern websites, web services, and online stores. I am dedicated to delivering exceptional user experiences through meticulous design and high-quality, responsive development.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_A3WMxL": {
+          "type": "button",
+          "settings": {
+            "button_label": "My Project",
+            "button_link": "shopify://pages/projects",
+            "button_label_1": "Download CV",
+            "button_link_1": "https://cdn.shopify.com/s/files/1/0902/6066/8701/files/My_New_CV.pdf?v=1754508295",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_NhFCin",
+        "text_9gnFPM",
+        "button_A3WMxL"
+      ],
+      "name": "Custom Image With Text",
+      "settings": {
+        "image": "shopify://shop_images/ben-kolde-Ajcipx1VDXI-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_image_with_text_Y4RAja"
+  ]
+}

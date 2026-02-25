@@ -1,0 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "new_skills_9dLhwi": {
+      "type": "new-skills",
+      "blocks": {
+        "image_block_XtjJRQ": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/desktops.png",
+            "block_heading": "OfflineFirstNotesApp",
+            "block_subheading": "“An offline-first notes app built with React.js that stores data locally and syncs when online.”",
+            "block_link": "https://github.com/payaldhabarde/OfflineFirstNotesApp"
+          }
+        },
+        "image_block_WCxUYM": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/note-taking.png",
+            "block_heading": "OfflineFirstNotesMobileApp",
+            "block_subheading": "“An offline-first notes app built with React Native that works seamlessly on mobile, storing notes locally and syncing when online.”",
+            "block_link": "https://github.com/payaldhabarde/OfflineFirstNotesMobileApp"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_XtjJRQ",
+        "image_block_WCxUYM"
+      ],
+      "name": "t:sections.new-skils.presets.name",
+      "settings": {
+        "section_heading": "Projects"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "new_skills_9dLhwi"
+  ]
+}

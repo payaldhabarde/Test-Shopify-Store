@@ -1,0 +1,68 @@
+.list-menu--right {
+  right: 0;
+}
+
+.list-menu--disclosure {
+  position: absolute;
+  min-width: 100%;
+  width: 20rem;
+  border: 1px solid rgba(var(--color-foreground), 0.2);
+}
+
+.list-menu--disclosure:focus {
+  outline: none;
+}
+
+.list-menu__item--active {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.list-menu__item--active:hover {
+  text-decoration-thickness: 0.2rem;
+}
+
+.list-menu--disclosure.localization-selector {
+  max-height: 18rem;
+  overflow: auto;
+  width: 10rem;
+  padding: 0.5rem;
+}
+
+
+
+/* CUSTOM CSS FOR HEADER ICONS */
+
+.header .header__icon--cart{
+display: none;
+}
+
+@media screen and (min-width: 990px) {
+    .header {
+        display: grid;
+        grid-template-columns: 20% 1fr 20%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.header .list-menu--inline{
+gap: 20px;
+}
+.header .header__active-menu-item{
+text-decoration: none;
+}
+
+.header *:focus-visible{
+box-shadow: none;
+outline: none;
+}
+.header .header__menu-item:hover span{
+  text-decoration: none;
+}
+
+.header .list-menu .link{
+    font-size: 16px;
+    font-family: monospace;
+}
+

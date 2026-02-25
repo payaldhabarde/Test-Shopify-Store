@@ -1,0 +1,122 @@
+
+<div class="image-blocks">
+  {% if section.settings.section_heading != blank %}
+    <h2>{{ section.settings.section_heading }}</h2>
+  {% endif %}
+
+  <div class="image-blocks-grid">
+    {% for block in section.blocks %}
+      <div class="image-block">
+        {% if block.settings.block_image %}
+          <a href="{{ block.settings.block_link | default: '#' }}">
+            <img src="{{ block.settings.block_image | img_url: 'master' }}" alt="{{ block.settings.block_heading }}">
+          </a>
+        {% endif %}
+        <h3>{{ block.settings.block_heading }}</h3>
+        <p>{{ block.settings.block_subheading }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.image-blocks {
+  text-align: center;
+  padding: 40px 20px;
+}
+.image-blocks .image-blocks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.image-block img {
+    width: 100%;
+  max-width: 200px;
+}
+.image-block img {
+  width: 100%;
+  height: auto;
+}
+@media(min-width: 750px){
+.image-blocks  h2{
+font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+}
+
+.image-blocks .image-blocks-grid p{
+    max-width: 280px;
+    margin: auto;
+    line-height: normal;
+}
+
+.image-blocks .image-blocks-grid h3{
+    font-weight: 600;
+    margin: 0;
+    line-height: 2.1;
+}
+</style>
+
+
+{% schema %}
+{
+  "name": "Image Blocks",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Featured Blocks"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_block",
+      "name": "Skills",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "block_image",
+          "label": "Upload Image"
+        },
+        {
+          "type": "text",
+          "id": "block_heading",
+          "label": "Heading",
+          "default": "Block Title"
+        },
+        {
+          "type": "text",
+          "id": "block_subheading",
+          "label": "Subheading",
+          "default": "Block subtitle"
+        },
+        {
+          "type": "url",
+          "id": "block_link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Skills",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "image_block"
+        },
+        {
+          "type": "image_block"
+        },
+        {
+          "type": "image_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

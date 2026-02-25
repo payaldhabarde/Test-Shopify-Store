@@ -1,0 +1,174 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_Uy6eM7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XX48ee": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hello, I’m",
+            "heading_size": "h1"
+          }
+        },
+        "text_8NJLBn": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Payal Dhabarde</h1><p>I'm a Shopify Web Developer with 2 years of experience, specializing in building fast, user-focused eCommerce websites. I craft custom Shopify themes and scalable web applications with clean code and modern design.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_fHF8eG": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Me",
+            "button_link": "shopify://pages/about-me",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_XX48ee",
+        "text_8NJLBn",
+        "button_fHF8eG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/solidpixels-iq2RzBMj-Wg-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "skills_slider_XtB7x6": {
+      "type": "skills-slider",
+      "disabled": true,
+      "name": "Skills Slider",
+      "settings": {}
+    },
+    "new_skills_Rp8XGQ": {
+      "type": "new-skills",
+      "blocks": {
+        "image_block_4D6HeH": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/html5-1841458_1280.png",
+            "block_heading": "",
+            "block_subheading": "",
+            "block_link": ""
+          }
+        },
+        "image_block_FEGKeq": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/css3-1841590_1280.png",
+            "block_heading": "",
+            "block_subheading": "",
+            "block_link": ""
+          }
+        },
+        "image_block_7M4EBp": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/javascript-736400_1280.png",
+            "block_heading": "",
+            "block_subheading": "",
+            "block_link": ""
+          }
+        },
+        "image_block_mJ7kyF": {
+          "type": "image_block",
+          "settings": {
+            "block_image": "shopify://shop_images/React_Logo_SVG_svg.png",
+            "block_heading": "",
+            "block_subheading": "",
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_block_4D6HeH",
+        "image_block_FEGKeq",
+        "image_block_7M4EBp",
+        "image_block_mJ7kyF"
+      ],
+      "name": "t:sections.new-skils.presets.name",
+      "settings": {
+        "section_heading": "Skills"
+      }
+    },
+    "custom_image_with_text_DNbyYj": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "heading_kTEKpm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frontend Developer – Shopify Specialist",
+            "heading_size": "h1"
+          }
+        },
+        "text_bc4rMr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I design and develop comprehensive digital solutions for clients, with a specialization in creating stylish, modern websites, web services, and online stores. I am dedicated to delivering exceptional user experiences through meticulous design and high-quality, responsive development.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_3NBCpy": {
+          "type": "button",
+          "settings": {
+            "button_label": "My Project",
+            "button_link": "shopify://pages/projects",
+            "button_label_1": "Download CV",
+            "button_link_1": "https://cdn.shopify.com/s/files/1/0902/6066/8701/files/My_New_CV.pdf?v=1754508295",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_kTEKpm",
+        "text_bc4rMr",
+        "button_3NBCpy"
+      ],
+      "name": "Custom Image With Text",
+      "settings": {
+        "image": "shopify://shop_images/ben-kolde-Ajcipx1VDXI-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_with_text_Uy6eM7",
+    "skills_slider_XtB7x6",
+    "new_skills_Rp8XGQ",
+    "custom_image_with_text_DNbyYj"
+  ]
+}
